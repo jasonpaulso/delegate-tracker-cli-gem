@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require './lib/delegate_tracker'
+
+DelegateTracker::CLI.new.call
+
+# puts "Welcome to the Delegate Tracker!"
